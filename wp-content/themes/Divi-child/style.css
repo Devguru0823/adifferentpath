@@ -1,0 +1,135 @@
+/*
+
+Theme Name: Divi Scroll
+
+Theme URI: https://divibuilderaddons.com/
+
+Description: A modern, Framework Child Theme that enables you to create Full page scrolling pages on Divi with the mouse wheel scroll.
+
+Author: Divi Builder Addons
+
+Author URI: https://divibuilderaddons.com/
+
+Template: Divi
+
+Version: 3.1
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+
+
+.headersection h1,.headersection h2,.headersection h3,.headersection h4,.headersection h5,.headersection h6{color:#FFFFFF;}
+
+.headersection  .header-content{
+
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+
+    padding: 40px !important;
+
+	color:#FFFFFF !important;
+
+	
+
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+	.headersection  .header-content{ width: 50%;}
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+	.et_header_style_fullscreen .et-fixed-header #et-top-navigation{ padding-top: 24px!important;}
+
+}
+
+
+
+
+
+.logged-out .et_pb_module.et_pb_fullwidth_header, .logged-out .et_pb_section {
+
+padding-top:0px;
+
+}
+
+
+
+.page-template-page-template-fullpage .et_pb_section.et_pb_section_0 {padding-top: 0 !important;}
+
+
+
+.page-template-page-template-fullpage .et_pb_module.et_pb_fullwidth_header {
+
+padding-top: 0 !important;
+
+}
+
+
+
+.et_non_fixed_nav.et_transparent_nav.et_show_nav #page-container,
+
+.et_fixed_nav.et_show_nav #page-container {
+
+	padding-top: 0px;
+
+}
+
+
+
+@media only screen and (max-width: 786px) {
+
+	.page-template-page-template-fullpage .et_pb_module.et_pb_fullwidth_header {
+
+		padding-top: 84px !important; 
+
+	}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+	#top-header{
+
+		display: none !important;
+
+	}
+
+}
+
+
+
+
+
+.et_pb_fullwidth_header_0 .et_pb_button_two.et_pb_button, .et_pb_fullwidth_header_0 .et_pb_button_one.et_pb_button {
+
+    transition: all .2s !important;
+
+}
+
+
+
+
+
+.et_header_style_fullscreen .et-fixed-header #et-top-navigation {
+
+    padding-bottom: 0 !important;
+
+}
+
+.page-template {
+
+    overflow: hidden !important;
+
+}
+
+#main-footer.et-fb-root-ancestor-sibling { position: initial !important;}
